@@ -9,20 +9,20 @@
     "repository": "https://github.com/Pdiskbot/pdiskshortner",
     "env": {
         "BOT_TOKEN": {
-            "description": "Your bot token",
+            "description": "Your bot token get from bot father",
             "value": ""
         },
         "API_ID": {
-            "description": "Get this value from https://t.me/ScrapperRoBot",
+            "description": "Get this value from my.telegram.org",
             "value": ""
         },
         "API_HASH": {
-            "description": "Get this value from https://t.me/ScrapperRoBot",
+            "description": "Get this value from my.telegram.org",
             "value": ""
         },
         "API_KEY": {
-            "description": "Get API key from pdiskshortner.net/member/tools/api",
-            "required": false
+            "description": "Get API key from www.pdiskshortforyou.tech/member/tools/api",
+            "value": ""
         }
     },
     "addons": [],
