@@ -9,7 +9,7 @@
     "repository": "https://github.com/Pdiskbot/pdiskshortner",
     "env": {
         "BOT_TOKEN": {
-            "description": "Your bot token get from bot father",
+            "description": "Your bot token, get token from bot father",
             "value": ""
         },
         "API_ID": {
