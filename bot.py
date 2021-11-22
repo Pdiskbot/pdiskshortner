@@ -37,7 +37,7 @@ Here is your  [Short Link]({short_link})''', quote=True)
 
 
 async def get_shortlink(link):
-    url = 'https://www.vivurl.com/api'
+    url = 'https://www.pdiskshortner.net/api'
     params = {'api': API_KEY, 'url': link}
 
     async with aiohttp.ClientSession() as session:
