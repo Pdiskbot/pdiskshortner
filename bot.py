@@ -21,6 +21,19 @@ async def start(bot, message):
         f"**Hi {message.chat.first_name}!**\n\n"
         "I'm Pdisk link bot. Just send me link and get short link")
 
+@bot.on_message(filters.photo & filters.private)
+async def link_handler(bot, message):
+    new_string = str(message.caption)
+    try:
+        short_link = await get_shortlink(link)
+            await message.reply(f'''<code>{short_link}</code>.
+
+({short_link})
+        else:
+            await bot.send_photo(message.chat.id, message.photo.file_id, caption=f'{pdisk_link}')
+    except Exception as e:
+        await message.reply(f'Error: {e}', quote=True)
+
 
 @bot.on_message(filters.regex(r'https?://[^\s]+') & filters.private)
 async def link_handler(bot, message):
