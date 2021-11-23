@@ -35,8 +35,6 @@ async def link_handler(bot, message):
         
 Here is your  [Short Link]({short_link})''', quote=True)
 
-else:
-            await bot.send_photo(message.chat.id, message.photo.file_id, caption=f'{short_link}')
     except Exception as e:
         await message.reply(f'Error: {e}', quote=True)
 
