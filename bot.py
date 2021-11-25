@@ -22,8 +22,6 @@ async def start(bot, message):
         "I'm Pdisk link bot. Just send me link and get short link")
 
 
-
-
 @bot.on_message(filters.regex(r'https?://[^\s]+') & filters.private)
 async def link_handler(bot, message):
     link = message.matches[0].group(0)
@@ -34,7 +32,6 @@ async def link_handler(bot, message):
 ({short_link})
         
 Here is your  [Short Link]({short_link})''', quote=True)
-
     except Exception as e:
         await message.reply(f'Error: {e}', quote=True)
 
