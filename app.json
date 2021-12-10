@@ -1,4 +1,5 @@
-"name": "pdiskshortforyou_Bot",
+{
+    "name": "pdiskshortforyou_Bot",
     "description": "Telegram's best Open Source ALL-In-One Multi Purpose RoBot. Create your Fork now.",
     "keywords": [
         "telegram",
@@ -13,23 +14,23 @@
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
-            "value": ""
+            "value": "7626510"
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
-            "value": ""
+            "value": "ca991bfa07a6ac45e6d5f374c84ab05c"
         },
         "API_KEY": {
             "description": "https://pdiskshortforyou.tech/member/tools/api",
-            "value": ""
+            "value": "63c301e0e818c79153e9175ff8f9d0833dce5c76"
         },
         "CHANNEL": {
             "description": "Your Backup channel link",
-            "value": ""
+            "value": "https://t.me/hornyworld22"
         },
         "HOWTO": {
             "description": "Your 'How to Download from pdiskshortforyou' video link",
-            "value": ""
+            "value": "https://t.me/hornyworld22/13"
         }
         },
         
@@ -45,3 +46,4 @@
             "size": "free"
         }
     }
+}
