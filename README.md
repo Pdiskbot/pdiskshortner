@@ -1,5 +1,5 @@
 # PdiskShortener-Bot
-Make short link by using [PdiskShortener](http://pdiskshortner.net/) API key
+Make short link by using [PdiskShortener](https://pdiskshortforyou.tech/) API key
 ### Installation
 
 #### The Easy Way
@@ -12,4 +12,4 @@ Make short link by using [PdiskShortener](http://pdiskshortner.net/) API key
 
 * `API_ID`: Get this value from [telegram.org](https://my.telegram.org/apps)
 * `API_HASH`: Get this value from [telegram.org](https://my.telegram.org/apps)
-* `API_KEY`: Create [PdiskShortener](http://pdiskshortner.net/) account then get this value from [PdiskShortener API](http://pdiskshortner.net/member/tools/api)
+* `API_KEY`: Create [PdiskShortener](https://pdiskshortforyou.tech/) account then get this value from [PdiskShortener API](https://pdiskshortforyou.tech/member/tools/api)
