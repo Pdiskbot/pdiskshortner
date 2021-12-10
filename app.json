@@ -1,30 +1,38 @@
-{
-    "name": "PdiskShortener-Bot",
-    "description": "Make short link by using PdiskShortener API key",
+"name": "pdiskshortforyou_Bot",
+    "description": "Telegram's best Open Source ALL-In-One Multi Purpose RoBot. Create your Fork now.",
     "keywords": [
         "telegram",
-        "PdiskShortener"
+        "gplink"
     ],
-    "website": "https://github.com/Pdiskbot/pdiskshortner",
-    "repository": "https://github.com/Pdiskbot/pdiskshortner",
+    "website": "https://github.com/Pdiskbot/pdiskshortforyou",
+    "repository": "https://github.com/Pdiskbot/pdiskshortforyou",
     "env": {
         "BOT_TOKEN": {
-            "description": "Your bot token, get token from bot father",
+            "description": "Your telegram bot token",
             "value": ""
         },
         "API_ID": {
-            "description": "Get this value from my.telegram.org",
+            "description": "Get this value from https://my.telegram.org",
             "value": ""
         },
         "API_HASH": {
-            "description": "Get this value from my.telegram.org",
+            "description": "Get this value from https://my.telegram.org",
             "value": ""
         },
         "API_KEY": {
-            "description": "Get API key from https://pdiskshortforyou.tech/member/tools/api",
+            "description": "https://pdiskshortforyou.tech/member/tools/api",
+            "value": ""
+        },
+        "CHANNEL": {
+            "description": "Your Backup channel link",
+            "value": ""
+        },
+        "HOWTO": {
+            "description": "Your 'How to Download from pdiskshortforyou' video link",
             "value": ""
         }
-    },
+        },
+        
     "addons": [],
     "buildpacks": [
         {
